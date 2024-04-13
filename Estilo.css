@@ -1,0 +1,114 @@
+/*-------------CARRITO-------------*/
+/* Estilos personalizados */
+.carrito-dropdown {
+    position: relative;
+}
+
+.carrito-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.carrito-dropdown:hover .carrito-dropdown-content {
+    display: block;
+}
+
+.carrito-icon {
+    font-size: 1.5rem;
+    margin-right: 5px;
+}
+
+/*------------------------*/
+.carrito-dropdown {
+    position: relative;
+}
+
+.carrito-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.carrito-dropdown:hover .carrito-dropdown-content {
+    display: block;
+}
+
+.carrito-icon {
+    font-size: 1.5rem;
+    margin-right: 5px;
+}
+
+/* Estilos para la imagen al lado del título */
+.title-with-image {
+    display: flex;
+    align-items: center;
+}
+
+.title-image {
+    margin-right: 10px; /* Espacio entre la imagen y el título */
+    width: 40px; /* Ancho deseado para la imagen */
+    height: auto; /* Altura automática para mantener la proporción */
+}
+
+.imagen1 {
+    margin: 20px;
+}
+
+.imagen2 {
+    margin: 20px;
+}
+
+/*-------------INICIO SESION-------------*/
+
+
+
+ /*Letras y botones responsivos*/
+
+ .card-title{
+    font-size: 1.8vw;
+ }
+
+ .card-text{
+    font-size: 1.6vw;
+ }
+
+#boton{
+    font-size: 1.5vw;
+
+ }
+
+#botonIni{
+    font-size: 90%;
+}
+
+.col{
+    display: flex;
+    justify-content: right;
+}
+
+#titulo{
+    font-size: 120%;
+}
+
+
+#carritoBtn{
+    font-size: 90%;
+    display: flex;
+    justify-content: right;
+    
+}
+
+.carrito-dropdown{
+    text-align: right;
+}
+
+#iconCARRI{
+    font-size: 140%;
+}
