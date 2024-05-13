@@ -2,6 +2,7 @@
 /* Estilos personalizados */
 .carrito-dropdown {
     position: relative;
+    text-align: right;
 }
 
 .carrito-dropdown-content {
@@ -22,29 +23,39 @@
     margin-right: 5px;
 }
 
+.carrito_container{
+    padding: 10px;
+}
+
+.carrito-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.carrito-dropdown:hover .carrito-dropdown-content {
+    display: block;
+}
+
+.carrito-icon {
+    font-size: 1.5rem;
+    margin-right: 5px;
+
+}
+#carritoBtn{
+    margin-left: 10px;
+   
+    
+}
+
+#iconCARRI{
+    font-size: 140%;
+
+}
 /*------------------------*/
-.carrito-dropdown {
-    position: relative;
-}
-
-.carrito-dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.carrito-dropdown:hover .carrito-dropdown-content {
-    display: block;
-}
-
-.carrito-icon {
-    font-size: 1.5rem;
-    margin-right: 5px;
-
-}
 
 /* Estilos para la imagen al lado del título */
 .title-with-image {
@@ -68,8 +79,6 @@
 
 /*-------------INICIO SESION-------------*/
 
-
-
  /*Letras y botones responsivos*/
 
  .card-title{
@@ -92,26 +101,23 @@
 .col{
     display: flex;
     justify-content: right;
+    
 }
 
 #titulo{
     font-size: 120%;
 }
 
-
-#carritoBtn{
-    font-size: 90%;
+/*Contenedor de Carrito y Inicio sesion*/
+.container{
     display: flex;
-    justify-content: right;
-    
+    align-items: center;
+   position: relative;
+   left: 57%;
 }
 
-.carrito-dropdown{
-    text-align: right;
+/*CARRUSEL XD*/
+#Carrusel{
+    width: 80%; /* Cambia el ancho del carrusel */
+    margin-left: 10%;
 }
-
-#iconCARRI{
-    font-size: 140%;
-}
-
-/*BODY*/

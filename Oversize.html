@@ -44,68 +44,61 @@
 
             </ul>
         </div>
-        <!--LOGIN-->
-        <div class="container">
-            <div class="row nt-5">
-              <div class="col">
-                <button id="botonIni" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#mi-modal-1">
-                  Inicio Sesion
-                </button>
+        <!--MODAL-->
+      <!--Carrito de compras y inicio sesion-->
+    <div class="container">
+      <div class="carrito_container">
+        <button class="btn btn-primary" type="button" id="carritoBtn">
+          <i class="fas fa-shopping-cart carrito-icon" id="iconCARRI"></i>Carrito
+        </button>
+      </div>
+      <div class="row nt-5">
+        <div class="col">
+          <button id="botonIni" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#mi-modal-1">
+            Inicio Sesion
+          </button>
+        </div>
+        <div class="modal fade" id="mi-modal-1" tabindex="-1" aria-hidden="true" aria-labelledby="label-moal-1">
+          <!--Caja modal-->
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <!--Encabezado del Modal-->
+              <div class="modal-header">
+                <h5 class="modal-title">Inicio Sesion</h5>
+                <button class="btn btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
               </div>
-              <div class="modal fade" id="mi-modal-1" tabindex="-1" aria-hidden="true" aria-labelledby="label-moal-1">
-                <!--Caja modal-->
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <!--Encabezado del Modal-->
-                    <div class="modal-header">
-                      <h5 class="modal-title">Inicio Sesion</h5>
-                      <button class="btn btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+              <!--Cuerpo modal-->
+              <div class="modal-body">
+                <div class="InicioSesion">
+                  <form method="post">
+                    <div class="username">
+                      <label>Correo:</label><br>
+                      <input type="email" required>
                     </div>
-                    <!--Cuerpo modal-->
-                    <div class="modal-body">
-                      <div class="InicioSesion">
-                        <form method="post">
-                          <div class="username">
-                            <label>Correo:</label><br>
-                            <input type="email" required>
-                          </div>
-                          <div class="username">
-                            <label>Contraseña:</label><br>
-                            <input type="password" required maxlength="12">
-                          </div>
-                          <a href="#">¿A olvidado su contraseña?</a>
-                          <br>
-                          <a href="#">Registrarse</a>
-                          <input type="submit" class="btn btn-success" value="Iniciar">
-                          <div class="registro">
-                          </div>
-                        </form>
-                      </div>
+                    <div class="username">
+                      <label>Contraseña:</label><br>
+                      <input type="password" required maxlength="12">
                     </div>
-                    <!--Pie modal-->
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                    <a href="#">¿A olvidado su contraseña?</a>
+                    <br>
+                    <a href="#">Registrarse</a>
+                    <input type="submit" class="btn btn-success" value="Iniciar">
+                    <div class="registro">
                     </div>
-                  </div>
+                  </form>
                 </div>
+              </div>
+              <!--Pie modal-->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
               </div>
             </div>
           </div>
-      <!-- Carrito de compras -->
-      <div class="carrito-dropdown">
-        <button class="btn btn-primary" type="button" id="carritoBtn">
-          <i class="fas fa-shopping-cart carrito-icon"></i>Carrito
-        </button>
-        <div class="carrito-dropdown-content">
-          
-          
-          <!-- Aquí puedes agregar los elementos del carrito -->
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Ir al carrito</a>
         </div>
       </div>
-      <!-- Fin Carrito de compras -->
     </div>
+    <!--Fin modal-->
+          
 </nav>
       <!--Imagenes de Oversize-->
       <div class="imagen1">
