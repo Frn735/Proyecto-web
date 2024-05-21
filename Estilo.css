@@ -65,7 +65,7 @@
 
 .title-image {
     margin-right: 10px; /* Espacio entre la imagen y el título */
-    width: 40px; /* Ancho deseado para la imagen */
+    width: 7vh; /* Ancho deseado para la imagen */
     height: auto; /* Altura automática para mantener la proporción */
 }
 
@@ -118,6 +118,37 @@
 
 /*CARRUSEL XD*/
 #Carrusel{
-    width: 80%; /* Cambia el ancho del carrusel */
+    width: 80%; 
     margin-left: 10%;
+    margin-bottom: 20px;
+}
+
+
+/*sdklsdlks*/
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+gmpx-store-locator {
+  width: 80%;
+  height: 80%;
+  margin-left: 150px;
+
+  
+  --gmpx-color-surface: #fff;
+  --gmpx-color-on-surface: #212121;
+  --gmpx-color-on-surface-variant: #757575;
+  --gmpx-color-primary: #1967d2;
+  --gmpx-color-outline: #e0e0e0;
+  --gmpx-fixed-panel-width-row-layout: 28.5em;
+  --gmpx-fixed-panel-height-column-layout: 65%;
+  --gmpx-font-family-base: "Roboto", sans-serif;
+  --gmpx-font-family-headings: "Roboto", sans-serif;
+  --gmpx-font-size-base: 0.875rem;
+  --gmpx-hours-color-open: #188038;
+  --gmpx-hours-color-closed: #d50000;
+  --gmpx-rating-color: #ffb300;
+  --gmpx-rating-color-empty: #e0e0e0;
 }
